@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - RestoCafe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <h1>Menu</h1>
+    <ul>
+        {% for item in menu_items %}
+        <li>{{ item.name }} - {{ item.price }}</li>
+        <p>{{ item.description }}</p>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+
+</html>
