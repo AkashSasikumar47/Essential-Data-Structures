@@ -1,0 +1,121 @@
+/* Set the background color to black */
+body {
+    background-color: #000000;
+}
+
+/* Set the text color to EEE7D4 for all elements */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    color: #EEE7D4;
+}
+
+
+
+
+
+
+/* Card Style */
+.card {
+    border-radius: 16px;
+    border: 1.5px solid #333330;
+    background: #000;
+    margin: 10px;
+    /* Adjust margin for spacing between cards */
+}
+
+/* Specific Card Sizes */
+.large-card {
+    width: 1040px;
+    height: 820px;
+}
+
+.small-card {
+    width: 332px;
+    height: 258px;
+}
+
+/* Flex Container for Layout */
+.flex-container {
+    display: flex;
+}
+
+/* Adjust alignment of small cards as needed */
+.small-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* styles.css */
+.navbar {
+    width: 454px;
+    height: 56px;
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    border: 1.5px solid #333330;
+    background: #000;
+    border-radius: 6px;
+}
+
+.nav-item {
+    color: #EEE7D4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 16px;
+}
+
+.nav-item:hover {
+    background: #555;
+    /* Hover background color */
+}
+
+
+/* Title Styles */
+.title {
+    position: absolute;
+    bottom: 64px;
+    left: 64px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--EEE7D4, #EEE7D4);
+    margin: 0;
+    /* Reset margin to avoid default spacing */
+}
+
+/* Button Styles */
+.button-main {
+    width: 126px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid var(--333330, #333330);
+    background: #111211;
+    color: #EEE7D4;
+    /* Text color for the button */
+    text-align: center;
+    line-height: 40px;
+    /* Vertically center text within the button */
+    text-decoration: none;
+    /* Remove underlines from links (optional) */
+    display: inline-block;
+    /* Ensure button dimensions are respected */
+}
+
+/* Hover Effect (Optional) */
+.button-main:hover {
+    background: #333;
+    /* Change background color on hover */
+    color: #EEE;
+    /* Change text color on hover */
+}

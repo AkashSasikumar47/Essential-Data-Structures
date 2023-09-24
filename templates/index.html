@@ -4,13 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <title>RestoCafe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-    <h1>Welcome to RestoCafe</h1>
-    <p>Explore our menu and make a reservation!</p>
-    <a href="/menu">View Menu</a>
-    <a href="/reservation">Make Reservation</a>
+
+    <div class="flex-container">
+        <!-- Left Large Card -->
+        <div class="card large-card">
+
+            <!-- Navbar -->
+            <div class="navbar">
+                <a href="/" class="nav-item">AT</a>
+                <a href="/menu" class="nav-item">Menu</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="/reservation" class="nav-item button-main">Book a Table</a>
+            </div>
+
+            <!-- H1 Title -->
+            <h1 class="title">AT RESTO-CAFE</h1>
+
+        </div>
+
+        <!-- Right Small Cards Container -->
+        <div class="small-card-container">
+            <div class="card small-card"></div>
+            <div class="card small-card"></div>
+            <div class="card small-card"></div>
+        </div>
+    </div>
+
 </body>
 
 </html>
