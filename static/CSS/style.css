@@ -81,8 +81,9 @@ a {
 
 /* Title Styles */
 .title {
+    font-family: 'Quintessential', cursive;
     position: absolute;
-    bottom: 64px;
+    bottom: 32px;
     left: 64px;
     font-size: 96px;
     font-style: normal;
