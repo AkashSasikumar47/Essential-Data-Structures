@@ -1,0 +1,67 @@
+Essential Data Structures
+
+	1.	Arrays
+	•	Basics and operations (insertion, deletion)
+	•	Two-dimensional arrays and matrices
+	•	Prefix sums and sliding window techniques
+	2.	Strings
+	•	String manipulation and pattern matching
+	•	String searching algorithms (KMP, Rabin-Karp)
+	•	Palindrome checking
+	3.	Linked Lists
+	•	Singly and doubly linked lists
+	•	Operations (insertion, deletion, traversal)
+	•	Detecting and removing cycles (Floyd’s cycle-finding algorithm)
+	4.	Stacks and Queues
+	•	Stack operations and applications (expression evaluation, backtracking)
+	•	Queue operations and applications (BFS, scheduling)
+	•	Variants like circular queues, priority queues, and dequeues
+	5.	Trees
+	•	Binary trees and binary search trees (BST)
+	•	Tree traversal techniques (in-order, pre-order, post-order)
+	•	Height-balanced trees (AVL, Red-Black trees)
+	•	Segment trees and Fenwick trees
+	6.	Heaps
+	•	Min-heap and max-heap
+	•	Heap operations (insertion, deletion, heapify)
+	•	Priority queues and heap sort
+	7.	Graphs
+	•	Graph representations (adjacency matrix, adjacency list)
+	•	Graph traversal techniques (DFS, BFS)
+	•	Shortest path algorithms (Dijkstra’s, Bellman-Ford)
+	•	Minimum spanning tree algorithms (Kruskal’s, Prim’s)
+	8.	Hashing
+	•	Hash tables and hash maps
+	•	Collision resolution techniques (chaining, open addressing)
+	•	Applications of hashing (counting frequencies, anagram detection)
+
+Essential Algorithms
+
+	1.	Sorting Algorithms
+	•	Comparison-based sorts (bubble sort, selection sort, insertion sort, merge sort, quick sort, heap sort)
+	•	Non-comparison sorts (counting sort, radix sort, bucket sort)
+	2.	Searching Algorithms
+	•	Linear search
+	•	Binary search and its applications
+	•	Ternary search
+	3.	Dynamic Programming
+	•	Basic concepts (memoization, tabulation)
+	•	Common problems (knapsack, longest increasing subsequence, longest common subsequence, coin change, matrix chain multiplication)
+	4.	Greedy Algorithms
+	•	Basic concepts and problem-solving approach
+	•	Common problems (activity selection, fractional knapsack, Huffman coding)
+	5.	Backtracking
+	•	Concepts and applications (N-Queens, subset sum, permutation generation)
+	•	Recursive approach and pruning
+	6.	Divide and Conquer
+	•	Concepts and common problems (merge sort, quick sort, binary search)
+	•	Master theorem for analyzing complexities
+
+Additional Topics
+
+	1.	Bit Manipulation
+	•	Basic operations (AND, OR, XOR, NOT, bit shifts)
+	•	Common problems (counting set bits, checking power of two)
+	2.	Advanced Data Structures
+	•	Tries (prefix trees) and their applications
+	•	Disjoint set union (union-find) and applications (cycle detection, Kruskal’s algorithm)
