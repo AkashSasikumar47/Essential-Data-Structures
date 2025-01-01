@@ -56,12 +56,3 @@ Essential Algorithms
 	6.	Divide and Conquer
 	•	Concepts and common problems (merge sort, quick sort, binary search)
 	•	Master theorem for analyzing complexities
-
-Additional Topics
-
-	1.	Bit Manipulation
-	•	Basic operations (AND, OR, XOR, NOT, bit shifts)
-	•	Common problems (counting set bits, checking power of two)
-	2.	Advanced Data Structures
-	•	Tries (prefix trees) and their applications
-	•	Disjoint set union (union-find) and applications (cycle detection, Kruskal’s algorithm)
